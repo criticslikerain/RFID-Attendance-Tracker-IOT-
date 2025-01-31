@@ -6,7 +6,7 @@ import datetime
 # FIREBASE CREDENTIALS NI HEREE 
 cred = credentials.Certificate("firebase.json")  # Path to your JSON file
 firebase_admin.initialize_app(cred, {
-    "databaseURL": "https://rfid-attendance-a69e4-default-rtdb.asia-southeast1.firebasedatabase.app/"
+    "databaseURL": "" # URL of your FIREBASE
 })
 
 # lISTA SA MGA STEM STUDENT NAMES 
